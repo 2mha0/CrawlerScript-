@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoupif __name__ == '__main__':    # 将本地的html页面的数据加载到对象中    fp = open('../html/test.html', 'r', encoding='utf-8')    soup = BeautifulSoup(fp, 'lxml')    print(soup)
