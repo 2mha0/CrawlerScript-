@@ -6,9 +6,8 @@
 import scrapy
 
 
-
-class FirstbloodItem(scrapy.Item):
+class ImgsproItem(scrapy.Item):
     # define the fields for your item here like:
     name = scrapy.Field()
     href = scrapy.Field()
-    title = scrapy.Field()
+
